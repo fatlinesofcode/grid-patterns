@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+
+
+    <meta name="viewport" content="width=1024">
+
+    <style>
+        html, body{
+            height:100%;
+            width:100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #333333;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #about{
+            position: absolute;
+            top:0;
+            right:0;
+            z-index: 2;
+        }
+        #about a{
+            color:black !important;
+            background: white;
+            padding:3px 5px;
+            text-decoration: none;
+            margin-right: 30px;
+            font-family: arial;
+            font-size: 14px;
+        }
+        canvas{
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+    </style>
+
+</head>
+<body >
+
+<canvas id="gradientCanvas" width="500" height="500"></canvas>
+
+<canvas id="gridCanvas" width="500" height="500"></canvas>
+
+<div id="about"><a href="http://fatlinesofcode.philipandrews.org/2011/08/12/new-html5-portfolio/">About</a></div>
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script src="App.js"></script>
+
+
+</body>
+</html>
